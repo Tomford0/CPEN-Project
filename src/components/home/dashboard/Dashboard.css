@@ -1,0 +1,78 @@
+body {
+    background: rgb(241, 239, 239);
+}
+
+.dash-container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img-box {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('../../assets/image/legon.jpg');
+    background-size: 1700px 550px;
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 98.9vw
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    height: 20rem;
+}
+
+.item {
+    padding: 10px;
+    border-radius: 15px;
+    height: 80%;
+    width: 50%;
+}
+
+.item h1 {
+   text-align: center;
+   text-decoration: underline;
+}
+
+.btn {
+    margin-top: 40px;
+    width: 15rem;
+    border: none;
+    color: black;
+    background: rgb(249, 249, 250);
+}
+
+.btn:hover {
+    background: rgb(52, 52, 254);
+    color: white;
+}
+
+.tab-1 {
+    background: rgb(31, 31, 250, 0.1);
+}
+
+.tab-1:hover {
+    border: 1px solid rgb(22, 22, 254);
+}
+
+.tab-2 {
+    background: rgb(255, 25, 25, 0.1);
+}
+
+.tab-2:hover {
+    border: 1px solid rgb(255, 23, 23);
+}
+
+.tab-3 {
+    background: rgb(18, 249, 18, 0.1);
+}
+
+.tab-3:hover {
+    border: 1px solid rgb(21, 252, 21);
+}
